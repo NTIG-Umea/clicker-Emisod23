@@ -91,19 +91,24 @@ window.addEventListener('load', (event) => {
  */
 upgrades = [
   {
-    name: 'Arg gubbe',
+    name: 'Windup monkey with cymbals',
     cost: 10,
     amount: 1
   },
   {
-    name: 'Internettroll',
+    name: 'Jumpman Mario',
     cost: 100,
     amount: 10
   },
   {
-    name: 'Twitterbot',
+    name: 'Hydraulic press',
     cost: 1000,
     amount: 100
+  },
+  {
+    name: 'Alpha Centauri',
+    cost: 10000,
+    amount: 1000
   }
 ]
 
