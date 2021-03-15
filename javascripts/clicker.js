@@ -106,7 +106,7 @@ upgrades = [
     amount: 100
   },
   {
-    name: 'Alpha Centauri',
+    name: 'Quasar Ton 618',
     cost: 10000,
     amount: 1000
   }
