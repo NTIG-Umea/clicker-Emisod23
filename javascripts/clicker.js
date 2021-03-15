@@ -101,7 +101,7 @@ upgrades = [
     amount: 10
   },
   {
-    name: 'Hydraulic press',
+    name: 'Hydraulisk press',
     cost: 1000,
     amount: 100
   },
