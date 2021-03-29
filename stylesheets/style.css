@@ -3,6 +3,14 @@ img {
   max-width: 80%;
 }
 
+.logo {
+  max-width: 50%;
+}
+
+p {
+  color: #E73926;
+}
+
 footer {
   margin-top: auto;
   padding: 2rem 0;
@@ -38,7 +46,7 @@ footer {
   display: flex;
   justify-content: space-between;
   cursor: pointer;
-  border: 1px solid black;
+  border: 1px solid #E73926;
   margin: .5rem 0;
   padding: .5rem;
 }
