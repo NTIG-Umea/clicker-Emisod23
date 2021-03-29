@@ -3,12 +3,20 @@ img {
   max-width: 80%;
 }
 
+h1 {
+  color: #cacaca;
+}
+
+html {
+  background-color: black;
+}
+
 .logo {
   max-width: 50%;
 }
 
 p {
-  color: #E73926;
+  color: #cacaca;
 }
 
 footer {
@@ -21,7 +29,9 @@ footer {
   width: 8rem;
   height: 8rem;
   font-size: 2rem;
-  background-color: #E73926;
+  background-color: #000000;
+  color: #cacaca;
+  border: 2px solid #E73926;
 }
 
 #msgbox {
@@ -46,7 +56,7 @@ footer {
   display: flex;
   justify-content: space-between;
   cursor: pointer;
-  border: 1px solid #E73926;
+  border: 2px solid #E73926;
   margin: .5rem 0;
   padding: .5rem;
 }
@@ -105,11 +115,9 @@ footer {
 
 .container {
   width: 100%;
-  margin-left: auto;
+  margin-left: 1rem;
   margin-right: auto;
-  padding-left: 1rem;
   padding-right: 1rem;
-  margin-top: 8rem;
 }
 
 @media (min-width: 576px) {
