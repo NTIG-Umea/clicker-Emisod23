@@ -101,14 +101,24 @@ upgrades = [
     amount: 10
   },
   {
-    name: 'Hydraulisk press',
+    name: 'Thwomp',
     cost: 1000,
     amount: 100
   },
   {
-    name: 'Quasar Ton 618',
+    name: 'Hydraulisk press',
     cost: 10000,
     amount: 1000
+  },
+  {
+    name: 'Galactus',
+    cost: 50000,
+    amount: 5000
+  },
+  {
+    name: 'Quasar Ton 618',
+    cost: 100000,
+    amount: 10000
   }
 ]
 
@@ -145,7 +155,7 @@ function createCard(upgrade) {
       followers++;
       moneyPerClick++;
       money -= upgrade.cost;
-      upgrade.cost *= 1.5;
+      upgrade.cost = Math.round(upgrade.cost * 1.5);
       cost.textContent = 'Köp för ' + upgrade.cost + ' press';
       moneyPerSecond += upgrade.amount;
       message('Grattis du har en ny följare!', 'success');

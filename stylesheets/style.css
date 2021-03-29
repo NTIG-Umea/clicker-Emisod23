@@ -46,10 +46,12 @@ footer {
 
 .warning {
   background-color: palevioletred;
+  color: #000000;
 }
 
 .success {
   background-color:mediumspringgreen;
+  color: #000000;
 }
 
 .card {
