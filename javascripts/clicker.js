@@ -56,8 +56,8 @@ function step(timestamp) {
   mpsTracker.textContent = moneyPerSecond;
   followerTracker.textContent = moneyPerClick;
 
-  if (timestamp >= last + 1000) {
-    money += moneyPerSecond;
+  if (timestamp >= last + 10) {
+    money += moneyPerSecond/100;
     last = timestamp;
   }
   window.requestAnimationFrame(step);
