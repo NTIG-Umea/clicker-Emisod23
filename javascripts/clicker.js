@@ -119,6 +119,11 @@ upgrades = [
     name: 'Quasar Ton 618',
     cost: 100000,
     amount: 10000
+  },
+  {
+    name: 'S Q U I S H',
+    cost: 1000000,
+    amount: 1000000000
   }
 ]
 
